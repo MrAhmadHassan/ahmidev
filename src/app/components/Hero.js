@@ -55,11 +55,11 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
         >
           <motion.h1 
-            className="text-5xl font-bold text-gray-900 tracking-tight"
+            className="text-5xl font-bold text-gray-900"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200 }}
           >
-            Hi, I'm Ahmad 
+            Hi, I&apos;m Ahmad 
             <motion.span
               animate={{ rotate: [0, 14, -8, 14, -4, 10, 0] }}
               transition={{ duration: 2.5, repeat: Infinity }}

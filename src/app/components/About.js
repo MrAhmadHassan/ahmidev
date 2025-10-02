@@ -17,10 +17,13 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Profile Image */}
           <div className="relative h-[600px] rounded-lg overflow-hidden shadow-xl">
-            <img
+            <Image
               src="/images/about.jpg"
               alt="Profile"
-              className="object-contain w-full h-full hover:scale-105 transition-transform duration-300"
+              width={400}
+              height={400}
+              className="object-cover rounded-lg"
+              priority
             />
           </div>
 
